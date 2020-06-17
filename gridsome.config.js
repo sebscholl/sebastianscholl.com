@@ -1,20 +1,9 @@
 module.exports = {
   siteName: "S. Scholl",
-  siteDescription: "Sebastian Scholl's professional website.",
+  siteDescription: "Sebastian Scholl's",
   siteUrl: "https://sebastianscholl.com",
+  pathPrefix: '/dist',
   plugins: [
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "blog/**/*.md",
-        typeName: "BlogPost",
-        resolveAbsolutePaths: true,
-        remark: {
-          externalLinksTarget: "_blank",
-          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
-        }
-      }
-    },
     {
       use: "@gridsome/plugin-google-analytics",
       options: {

@@ -1,18 +1,17 @@
-import DefaultLayout from "~/layouts/Default.vue";
-
 import BootstrapVue from "bootstrap-vue";
-import "./assets/styles/main.scss";
-
+import DefaultLayout from "~/layouts/Default.vue";
 import checkIfMobile from "./mixins/checkIfMobile";
 
-export default function(Vue, { router, head, isClient }) {
+import "./assets/styles/main.scss";
+
+export default function(Vue, { head }) {
   head.link.push({
     rel: "stylesheet",
-    href:
-      "https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap&subset=latin-ext"
+    href: "https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap",
   });
 
   Vue.use(BootstrapVue);
   Vue.component("Layout", DefaultLayout);
+
   Vue.mixin(checkIfMobile);
 }

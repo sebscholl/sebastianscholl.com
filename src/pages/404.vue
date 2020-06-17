@@ -1,21 +1,18 @@
 <template>
   <Layout>
-    <div class="d-flex">
-    <img class="" src="../assets/images/404.svg" />
-    </div>
+    Nothing here...
   </Layout>
 </template>
 
-<style scoped lang="scss">
-img {
-  width: 80%;
-  margin: auto;
+<script>
+export default {
+  metaInfo: {
+    title: "404 | Sebastian Scholl"
+  },
 
-  @media (max-width: 500px) {
-    width: 90%;
+  created() {
+    this.$router.push('/')
   }
-  @media (max-width: 400px) {
-    width: 100%;
-  }
-}
-</style>
+};
+</script>
+

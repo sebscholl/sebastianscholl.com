@@ -1,6 +1,5 @@
 <template>
   <div class="layout">
-    <Header />
     <div id="content-wrapper">
       <slot />
     </div>
@@ -10,12 +9,10 @@
 
 <script>
 import Footer from "../components/Footer";
-import Header from "../components/Header";
 
 export default {
   components: {
-    Footer,
-    Header
+    Footer
   }
 };
 </script>
@@ -25,12 +22,11 @@ body,
 html {
   height: 100%;
   color: white !important;
-  background: linear-gradient(270deg, #949494, #656565, #3f3f3f, #181818);
+  background: linear-gradient(10deg, #58151A, #BC2909, #BA6D09, #71A8EE, #3072EB, #1552C6, #0542A8);
   background-size: 800% 800%;
-
-  -webkit-animation: AnimationName 10s ease infinite;
-  -moz-animation: AnimationName 10s ease infinite;
-  animation: AnimationName 10s ease infinite;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 
   @-webkit-keyframes AnimationName {
       0%{background-position:0% 50%}
@@ -69,7 +65,7 @@ body {
   margin: 0 auto;
   max-width: 600px;
   flex-direction: column;
+  justify-content: center;
   height: calc(100% - 192px);
-  justify-content: space-evenly;
 }
 </style>

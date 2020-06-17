@@ -1,14 +1,15 @@
 <template>
   <Layout>
-    <img class="profile-image" src="../../uploads/Profile.png" />
+    <img class="profile-image" src="../../static/Profile.png" />
 
-    <h2 class="mb-4 text-intro">Hi, I'm Sebastian.</h2>
+    <h2 class="my-4 text-intro">Hi, I'm Sebastian.</h2>
     
     <p>
-      This is a starter project for Gridsome that comes with many features out
-      of the box. It utilizes Bootstrap that is well known for powerful styling
-      and layout. Ready to be deployed, automagically imports data to CMS and
-      sets up your /admin page for easy access to edit your content.
+      There's not much to see here! If you want to connect, use one of the platforms linked below.
+    </p>
+
+    <p>
+      Otherwise... <a href="https://www.google.com/search?q=Sebastian+Scholl" class="google-link">try this?</a>
     </p>
   </Layout>
 </template>
@@ -29,6 +30,11 @@ export default {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
+}
+
+.google-link {
+  color: white;
+  text-decoration: underline;
 }
 
 .text-intro {
