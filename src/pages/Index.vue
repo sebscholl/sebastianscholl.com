@@ -17,7 +17,7 @@
       <a
         href="https://www.google.com/search?q=Sebastian+Scholl"
         class="google-link"
-        >try this?</a
+        >Google?</a
       >
     </p>
   </Layout>
