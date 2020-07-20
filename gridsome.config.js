@@ -1,17 +1,17 @@
 module.exports = {
-  siteName: "S. Scholl",
+  siteName: 'S. Scholl',
   siteDescription: "Sebastian Scholl's",
-  siteUrl: "https://sebastianscholl.com",
-  pathPrefix: '/dist',
+  siteUrl: 'https://sebscholl.github.io',
+  pathPrefix: '/sebastianscholl.com',
   plugins: [
     {
-      use: "@gridsome/plugin-google-analytics",
+      use: '@gridsome/plugin-google-analytics',
       options: {
-        id: "UA-72659574-10"
+        id: 'UA-72659574-10'
       }
     },
     {
-      use: "@gridsome/plugin-sitemap",
+      use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000
       }
@@ -23,7 +23,7 @@ module.exports = {
     }
   },
   devServer: {
-    host: "0.0.0.0",
+    host: '0.0.0.0',
     port: 8080
   }
-};
+}
