@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{"7l0S":function(t,e,n){"use strict";n.r(e);var i={metaInfo:{title:"404 | Sebastian Scholl"},created:function(){this.$router.push("/")}},l=n("KHd+"),o=Object(l.a)(i,(function(){var t=this.$createElement;return(this._self._c||t)("Layout",[this._v("\n  Nothing here...\n")])}),[],!1,null,null,null);e.default=o.exports}}]);

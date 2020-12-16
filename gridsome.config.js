@@ -1,8 +1,7 @@
 module.exports = {
   siteName: 'S. Scholl',
   siteDescription: "Sebastian Scholl's",
-  siteUrl: 'https://sebscholl.github.io',
-  pathPrefix: '/sebastianscholl.com',
+  siteUrl: 'http://sebastianscholl.com',
   plugins: [
     {
       use: '@gridsome/plugin-google-analytics',
